@@ -1,0 +1,36 @@
+---
+title: "lista1"
+output: 
+  html_document:
+    keep_tex: true
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#library(Lista1)
+```
+
+```{r}
+plot(cars)
+```
+
+```{r}
+1+1
+```
+
+
+```{r}
+knitr::kable(pressure)
+```
+
+```{r}
+#tinytex::install_tinytex() - baixar depois em casa 
+```
+
+
